@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: dimgray;
+    color: #F6F6F6;
+    font-family: Gill Sans;
+}
+
+.titulo {
+    color: #22D4FD;
+    font-size: 16;
+    font-family: Verdana;
+}
+
