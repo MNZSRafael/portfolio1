@@ -5,6 +5,15 @@
     padding: 0;
 }
 
+:root  {
+    --cor-fundo:#22A699;
+    --cor-texto: #F2BE22;
+    --cor-forte: #F29727;
+    --cor-hover: #F24C3D;
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-secundaria:
+}
+
 .cabecalho 
 {
     padding: 2% 0% 0% 15%;
@@ -18,14 +27,15 @@
 
 .cabecalho_links {
     font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor-forte);
+    text-decoration: none;
 }
 
 .apresentacao
 {
-    padding: 5% 15%;
+    padding: 4% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,16 +44,16 @@
 
 body 
 {
-    height: 100vh;
+    height: 80vh;
     box-sizing: border-box;
-    background-color: black;
+    background-color: var(--cor-fundo);
     color: #F6F6F6;
     font-family: Gill Sans;
 }
 
 .apresentacao_conteudo
 {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -51,19 +61,19 @@ body
 
 .apresentacao_titulo
 {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: 'Krona One', sans-serif;
 }
 
 .apresentacao_texto
 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Montserrat', sans-serif;
 }
 
 .titulo 
 {
-    color: #22D4FD;
+    color: var(--cor-forte);
     
 }
 
@@ -78,7 +88,7 @@ body
 
 .apresentacao_links_subtitulo
 {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
 }
@@ -88,11 +98,11 @@ body
     display: flex;
     justify-content: center;
     gap: 16px;
-    border: 2px solid #22D4FD;
-    width: 378px;
+    border: 2px solid var(--cor-forte);
+    width: 50%;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     padding: 21.5px 0;
     font-weight: 600;
     text-decoration: none;
@@ -102,14 +112,20 @@ body
 }
 .apresentacao_links_link:hover 
 {
-    background-color: #272727;
+    background-color: var(--cor-hover);
+}
+
+.imagem_perfil {
+   
+    width: 50%;
+
 }
 
 .rodape
 {
-    color: #000000;
-    background-color: #22D4FD;
-    font-size: 24px;
+    color: var(--cor-fundo);
+    background-color: var(--cor-forte);
+    font-size: 1.5rem;
     font-family: 'Monteserrat', sans-serif;
     font-weight: 400;
     text-align: center;
