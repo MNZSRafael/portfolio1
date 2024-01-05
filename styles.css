@@ -116,8 +116,9 @@ body
 }
 
 .imagem_perfil {
+    padding: 0 0 0 10%;
    
-    width: 50%;
+    width: 90%;
 
 }
 
