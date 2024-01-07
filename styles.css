@@ -35,10 +35,11 @@
 
 .apresentacao
 {
-    padding: 4% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
 
 }
 
@@ -116,9 +117,9 @@ body
 }
 
 .imagem_perfil {
-    padding: 0 0 0 10%;
    
-    width: 90%;
+   padding: 0 0 30% 0;
+    width: 80%;
 
 }
 
@@ -132,3 +133,34 @@ body
     text-align: center;
     padding: 24px; 
 }
+
+@media (max-width: 1200px) {
+
+    .cabecalho 
+    {
+        padding: 10%;
+    }
+
+    .cabecalho_navegacao
+    {
+        justify-content: center;
+    }
+    .apresentacao
+    {
+        flex-direction: column-reverse;    
+        padding: 5%;
+    }
+
+    .apresentacao_conteudo {
+        width: auto;
+    }
+
+    .imagem_perfil
+
+    {
+        padding: 0 0 0 25%;
+        width: 50%;
+        align-items: center;
+       
+    }
+} 
